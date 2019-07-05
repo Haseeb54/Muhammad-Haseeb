@@ -1,0 +1,26 @@
+print("**********************Marksheet**************************")
+print("*********Board Of Intermediate Education Karachi*********")
+
+print("*******************Name:Haseeb Shah**********************")
+print("**************Father Name:Muhammad Hanif*****************")
+print("*****************Roll Number:915832**********************")
+print("*************Group:Science(Pre-Enginering)***************")
+print("**Government Superior Science College Shahfaisal Karachi**")
+sub1=int(input("Enter the number of Chemistry :"))
+sub2=int(input("Enter the number of Mathematics :"))
+sub3=int(input("Enter the number of Physics :"))
+sub4=int(input("Enter the number of Urdu :"))
+sub5=int(input("Enter the number of English :"))
+avg=(sub1+sub2+sub3+sub4+sub5)/ 5
+if(avg>=90):
+    print("Grade : A1")
+elif(avg>=80):
+    print("Grade : A")
+elif (avg >= 70):
+    print("Grade : B")
+elif (avg >= 60):
+    print("Grade : C")
+elif (avg >= 50):
+    print("Grade : D")
+else:
+    print("Grade : F")
